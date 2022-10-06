@@ -1,0 +1,49 @@
+body{
+    background-color:rgb(235, 227, 227);
+    background-position: center;
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    line-height: 3px;
+    font-size: x-large;
+}
+
+#all{
+        border: 10px ridge lightgrey;
+        max-width: fit-content;
+}
+#A{
+    display: flex;
+    flex-direction: row;
+}
+div{
+    width: 50px;
+    height: 50px;
+    border: 1px dashed black;
+    justify-content: center;
+    justify-items: center;
+}
+.one{
+    color: blue ;
+}
+.two{
+    color: green;
+}
+.three{
+    color: red;
+}
+.bomb{
+    max-height: 40px;
+    margin: 5px;
+}
+.unsee{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: initial;
+    background-color: rgb(192, 189, 189);
+    box-shadow: 5px 5px 0px 0px rgba(174,164,164,0.77) inset, 
+                -5px -5px 0px 0px rgba(174,164,164,0.77) inset;
+}
+.unsee:hover{
+    
+}
